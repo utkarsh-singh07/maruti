@@ -12,6 +12,6 @@ func Chants() string {
 	return "Jai shree Ram!, Jai shree Ram!"
 }
 
-func Roar(s string) string {
+func Roar() string {
 	return hanuman.Shouts(Chant())
 }
